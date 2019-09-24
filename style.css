@@ -1,6 +1,6 @@
 .map {
     background-color: #0d1d2d;
-    background-image: url("images/background.png");
+    background-image: url("https://raw.githubusercontent.com/solodev/clickable-map-overlay/master/images/background.png");
     background-position: center;
     background-repeat: repeat;
     position: relative;
@@ -127,7 +127,7 @@ a.btn:before {
     bottom: 30%;
 }
 .map button.btn.pop.florida, .map a.btn.pop.florida {
-    right: 18%;
+    right: 16%;
     bottom: 14%;
     transform: rotate(60deg);
     padding: 10px 44px;
@@ -138,7 +138,7 @@ a.btn.florida:before {
 }
 
 a.btn.florida {
-    background-image: url("images/solodev-logo-sm.svg");
+    background-image: url("images/solodev-logo.png");
     background-position: center;
     background-repeat: no-repeat;
 }
