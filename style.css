@@ -1,0 +1,144 @@
+.map {
+    background-color: #0d1d2d;
+    background-image: url("images/bg-blue-image-small.png");
+    background-position: center;
+    background-repeat: repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+a.btn:before {
+    font-family: FontAwesome;
+    content: "\f041";
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media (max-width: 320px) {
+    .map {
+        height: 200px;
+        margin: 4rem 0;
+   }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+    .map {
+        height: 250px;
+        margin: 4rem 0;
+   }
+}
+@media (min-width: 481px) and (max-width: 575.98px) {
+    .map {
+        height: 350px;
+        margin: 4rem 0;
+   }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .map {
+        height: 400px;
+        margin: 4rem 0;
+   }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .map {
+        margin: 4rem 0;
+        height: 500px;
+   }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .map {
+        margin: 6rem 0;
+        height: 600px;
+   }
+}
+@media (min-width: 1200px) {
+    .map {
+        margin: 8rem 0;
+        height: 600px;
+   }
+}
+.map img {
+    margin-top: -10%;
+    position: relative;
+    z-index: 3;
+}
+.map button.btn.pop, .map a.btn.pop {
+    z-index: 5;
+    position: absolute;
+    color: #23303f;
+    min-width: 0;
+}
+@media (max-width: 575.98px) {
+    .map button.btn.pop, .map a.btn.pop {
+        font-size: 1rem;
+   }
+}
+@media (min-width: 576px) {
+    .map button.btn.pop, .map a.btn.pop {
+        font-size: 2rem;
+   }
+}
+.map button.btn.pop:focus, .map a.btn.pop:focus {
+    box-shadow: unset;
+    outline: 0;
+    border: 0;
+}
+.map button.btn.pop.default-popup, .map a.btn.pop.default-popup {
+    z-index: -1;
+    right: 30%;
+}
+@media (max-width: 767.98px) {
+    .map button.btn.pop.default-popup, .map a.btn.pop.default-popup {
+        bottom: 30%;
+   }
+}
+@media (min-width: 768px) {
+    .map button.btn.pop.default-popup, .map a.btn.pop.default-popup {
+        top: 30%;
+   }
+}
+
+/* New Map */
+.map button.btn.pop.lunarxp-launch-site, .map a.btn.pop.lunarxp-launch-site {
+    left: 9%;
+    top: 30%;
+}
+.map button.btn.pop.lunarxp-control-center, .map a.btn.pop.lunarxp-control-center {
+    left: 14%;
+    top: -17%;
+}
+.map button.btn.pop.lunarxp-rocket-factory, .map a.btn.pop.lunarxp-rocket-factory {
+    left: 11%;
+    top: -2%;
+}
+.map button.btn.pop.lunarxp-colony-xp-1, .map a.btn.pop.lunarxp-colony-xp-1 {
+    left: 44%;
+    bottom: 22%;
+}
+.map button.btn.pop.lunarxp-colony-hab-1, .map a.btn.pop.lunarxp-colony-hab-1 {
+    right: 37%;
+    top: 25%;
+}
+.map button.btn.pop.lunarxp-colony-orbiter-1, .map a.btn.pop.lunarxp-colony-orbiter-1 {
+    right: 15%;
+    top: 4%;
+}
+.map button.btn.pop.lunar-xplorer, .map a.btn.pop.lunar-xplorer {
+    right: 25%;
+    bottom: 30%;
+}
+.map button.btn.pop.florida, .map a.btn.pop.florida {
+    right: 18%;
+    bottom: 14%;
+    transform: rotate(60deg);
+    padding: 10px 44px;
+}
+
+a.btn.florida:before {
+    content: none;
+}
+
+a.btn.florida {
+    background-image: url("images/solodev-logo-sm.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
