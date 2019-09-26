@@ -2,7 +2,7 @@
 Videos can augment your brand and user impression; with a video background you can overlay text for a clear call-to-action.
 
 ## Tutorial
-For detailed instruction's, view Solodev's [Clickable Map Overlay](https://www.solodev.com/blog/web-design/clickable-map-overlay.stml) article.
+For detailed instruction's, view Solodev's [Clickable Map Overlay](https://www.solodev.com/blog/web-design/how-to-create-clickable-map-overlays.stml) article.
 
 ## Demo
   		  
